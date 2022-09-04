@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>dealtmodule</name>
+	<displayName><![CDATA[Dealt Module]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[The official Dealt prestashop module.]]></description>
+	<author><![CDATA[Dealt Developers]]></author>
+	<tab><![CDATA[checkout]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

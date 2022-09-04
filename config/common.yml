@@ -1,0 +1,18 @@
+services:
+  _defaults:
+    public: true
+
+  dealt.modules.dealmodule.api.handler:
+    class: Dealt\Module\Dealtmodule\Api\DealtApiHandler
+    arguments:
+      - "@dealmodule.module"
+      - "@dealt.modules.dealmodule.api.environment"
+  dealt.modules.dealmodule.api.environment:
+    class: Dealt\Module\Dealtmodule\Api\DealtEnv
+
+  dealmodule.module:
+    class: 'dealmodule'
+    factory: ['Module', 'getInstanceByName']
+    public: true
+    arguments:
+      - 'dealmodule'

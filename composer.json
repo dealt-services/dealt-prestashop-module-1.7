@@ -1,0 +1,27 @@
+{
+  "name": "dealt/dealtmodule",
+  "description": "Dealt module dealt",
+  "type": "prestashop-module",
+  "authors": [
+    {
+      "name": "dealt",
+      "email": "sayari.slim@gmail.com"
+    }
+  ],
+  "require": {
+    "dealt/dealt-sdk": "^0.0.9"
+  },
+  "config": {
+    "prepend-autoloader": false
+  },
+  "autoload": {
+    "psr-4": {
+      "Dealt\\Module\\Dealtmodule\\": "src/"
+    },
+    "classmap": [
+      "dealtmodule.php",
+      "src/"
+    ],
+    "exclude-from-classmap": []
+  }
+}

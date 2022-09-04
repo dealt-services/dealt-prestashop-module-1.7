@@ -1,0 +1,7 @@
+parameters:
+    level: max
+    phpVersion: 70100 # PHP 7.1
+    paths:
+        - src
+
+    reportUnmatchedIgnoredErrors: true
