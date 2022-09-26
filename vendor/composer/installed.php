@@ -1,42 +1,68 @@
-<?php return array (
-  'root' => 
-  array (
-    'pretty_version' => 'dev-develop',
-    'version' => 'dev-develop',
-    'aliases' => 
-    array (
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'prestashop-module',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'dbb0140f227df8061d46fe54633193abb56c15ad',
+        'name' => 'dealt/dealtmodule',
+        'dev' => true,
     ),
-    'reference' => 'ecc9f9b5e04b9525eb9da9ff63d6c316a95f38e0',
-    'name' => 'dealt/dealtmodule',
-  ),
-  'versions' => 
-  array (
-    'dealt/dealt-sdk' => 
-    array (
-      'pretty_version' => 'v0.0.9',
-      'version' => '0.0.9.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'bedc6c571f26ac8b140fb5e096f7f192d2f7fbd6',
+    'versions' => array(
+        'dealt/dealt-sdk' => array(
+            'pretty_version' => 'v0.0.9',
+            'version' => '0.0.9.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dealt/dealt-sdk',
+            'aliases' => array(),
+            'reference' => 'bedc6c571f26ac8b140fb5e096f7f192d2f7fbd6',
+            'dev_requirement' => false,
+        ),
+        'dealt/dealtmodule' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'prestashop-module',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'dbb0140f227df8061d46fe54633193abb56c15ad',
+            'dev_requirement' => false,
+        ),
+        'giggsey/libphonenumber-for-php' => array(
+            'pretty_version' => '8.12.56',
+            'version' => '8.12.56.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../giggsey/libphonenumber-for-php',
+            'aliases' => array(),
+            'reference' => '0f6481df7bee33fe0ed87d2af06770527a2e1c86',
+            'dev_requirement' => false,
+        ),
+        'giggsey/locale' => array(
+            'pretty_version' => '2.2',
+            'version' => '2.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../giggsey/locale',
+            'aliases' => array(),
+            'reference' => '9c1dca769253f6a3e81f9a5c167f53b6a54ab635',
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-mbstring' => array(
+            'pretty_version' => 'v1.26.0',
+            'version' => '1.26.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
+            'aliases' => array(),
+            'reference' => '9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e',
+            'dev_requirement' => false,
+        ),
+        'symfony70/polyfill-php80' => array(
+            'pretty_version' => 'v1.18.1',
+            'version' => '1.18.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony70/polyfill-php80',
+            'aliases' => array(),
+            'reference' => 'd87d5766cbf48d72388a9f6b85f280c8ad51f981',
+            'dev_requirement' => false,
+        ),
     ),
-    'dealt/dealtmodule' => 
-    array (
-      'pretty_version' => 'dev-develop',
-      'version' => 'dev-develop',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'ecc9f9b5e04b9525eb9da9ff63d6c316a95f38e0',
-    ),
-    'symfony70/polyfill-php80' => 
-    array (
-      'pretty_version' => 'v1.18.1',
-      'version' => '1.18.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'd87d5766cbf48d72388a9f6b85f280c8ad51f981',
-    ),
-  ),
 );
