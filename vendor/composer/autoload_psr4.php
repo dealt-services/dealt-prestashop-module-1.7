@@ -6,10 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'libphonenumber\\' => array($vendorDir . '/giggsey/libphonenumber-for-php/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony70/polyfill-php80'),
-    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
-    'Giggsey\\Locale\\' => array($vendorDir . '/giggsey/locale/src'),
     'Dealt\\Module\\Dealtmodule\\' => array($baseDir . '/src'),
     'Dealt\\DealtSDK\\' => array($vendorDir . '/dealt/dealt-sdk/src'),
 );

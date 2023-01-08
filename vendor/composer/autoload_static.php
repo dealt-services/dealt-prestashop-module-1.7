@@ -7,23 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit73b64d3d94e064e92c36f6b3c994dd29
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '78089f66c9949011073746c19f4a4a4d' => __DIR__ . '/..' . '/symfony70/polyfill-php80/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'l' => 
-        array (
-            'libphonenumber\\' => 15,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-        ),
-        'G' => 
-        array (
-            'Giggsey\\Locale\\' => 15,
         ),
         'D' => 
         array (
@@ -33,21 +23,9 @@ class ComposerStaticInit73b64d3d94e064e92c36f6b3c994dd29
     );
 
     public static $prefixDirsPsr4 = array (
-        'libphonenumber\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src',
-        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony70/polyfill-php80',
-        ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
-        'Giggsey\\Locale\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/giggsey/locale/src',
         ),
         'Dealt\\Module\\Dealtmodule\\' => 
         array (
@@ -61,62 +39,6 @@ class ComposerStaticInit73b64d3d94e064e92c36f6b3c994dd29
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Dealt\\DealtSDK\\CoreDealtClient' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/CoreDealtClient.php',
-        'Dealt\\DealtSDK\\DealtClient' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/DealtClient.php',
-        'Dealt\\DealtSDK\\DealtEnvironment' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/DealtEnvironment.php',
-        'Dealt\\DealtSDK\\Exceptions\\GraphQLException' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Exceptions/GraphQLException.php',
-        'Dealt\\DealtSDK\\Exceptions\\GraphQLFailureException' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Exceptions/GraphQLFailureException.php',
-        'Dealt\\DealtSDK\\Exceptions\\GraphQLInvalidParametersException' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Exceptions/GraphQLInvalidParametersException.php',
-        'Dealt\\DealtSDK\\Exceptions\\InvalidArgumentException' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Exceptions/InvalidArgumentException.php',
-        'Dealt\\DealtSDK\\GraphQL\\GraphQLClient' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/GraphQLClient.php',
-        'Dealt\\DealtSDK\\GraphQL\\GraphQLInputInterface' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/GraphQLInputInterface.php',
-        'Dealt\\DealtSDK\\GraphQL\\GraphQLMutation' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/GraphQLMutation.php',
-        'Dealt\\DealtSDK\\GraphQL\\GraphQLObjectInterface' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/GraphQLObjectInterface.php',
-        'Dealt\\DealtSDK\\GraphQL\\GraphQLOperation' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/GraphQLOperation.php',
-        'Dealt\\DealtSDK\\GraphQL\\GraphQLOperationInterface' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/GraphQLOperationInterface.php',
-        'Dealt\\DealtSDK\\GraphQL\\GraphQLQuery' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/GraphQLQuery.php',
-        'Dealt\\DealtSDK\\GraphQL\\Mutations\\CancelMissionMutation' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Mutations/CancelMissionMutation.php',
-        'Dealt\\DealtSDK\\GraphQL\\Mutations\\SubmitMissionMutation' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Mutations/SubmitMissionMutation.php',
-        'Dealt\\DealtSDK\\GraphQL\\Queries\\MissionQuery' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Queries/MissionQuery.php',
-        'Dealt\\DealtSDK\\GraphQL\\Queries\\MissionsQuery' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Queries/MissionsQuery.php',
-        'Dealt\\DealtSDK\\GraphQL\\Queries\\OfferAvailabilityQuery' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Queries/OfferAvailabilityQuery.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Enum\\CancelMissionMutationFailureReason' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Enum/CancelMissionMutationFailureReason.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Enum\\MissionQueryFailureReason' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Enum/MissionQueryFailureReason.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Enum\\MissionStatus' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Enum/MissionStatus.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Enum\\MissionsQueryFailureReason' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Enum/MissionsQueryFailureReason.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Enum\\OfferAvailabilityQueryFailureReason' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Enum/OfferAvailabilityQueryFailureReason.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Enum\\SubmitMissionMutationFailureReason' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Enum/SubmitMissionMutationFailureReason.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Input\\AbstractAddress' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Input/AbstractAddress.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Input\\AbstractCustomer' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Input/AbstractCustomer.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Input\\AbstractInputType' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Input/AbstractInputType.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Input\\OfferAvailabilityQueryAddress' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Input/OfferAvailabilityQueryAddress.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Input\\SubmitMissionMutationAddress' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Input/SubmitMissionMutationAddress.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Input\\SubmitMissionMutationCustomer' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Input/SubmitMissionMutationCustomer.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\AbstractObjectType' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/AbstractObjectType.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\AbstractUnionType' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/AbstractUnionType.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\CancelMissionMutationFailure' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/CancelMissionMutationFailure.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\CancelMissionMutationResult' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/CancelMissionMutationResult.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\CancelMissionMutationSuccess' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/CancelMissionMutationSuccess.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\Mission' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/Mission.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\MissionQueryFailure' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/MissionQueryFailure.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\MissionQueryResult' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/MissionQueryResult.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\MissionQuerySuccess' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/MissionQuerySuccess.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\MissionsQueryFailure' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/MissionsQueryFailure.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\MissionsQueryResult' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/MissionsQueryResult.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\MissionsQuerySuccess' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/MissionsQuerySuccess.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\Money' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/Money.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\Offer' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/Offer.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\OfferAvailabilityQueryFailure' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/OfferAvailabilityQueryFailure.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\OfferAvailabilityQueryResult' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/OfferAvailabilityQueryResult.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\OfferAvailabilityQuerySuccess' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/OfferAvailabilityQuerySuccess.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\SubmitMissionMutationFailure' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/SubmitMissionMutationFailure.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\SubmitMissionMutationResult' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/SubmitMissionMutationResult.php',
-        'Dealt\\DealtSDK\\GraphQL\\Types\\Object\\SubmitMissionMutationSuccess' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/GraphQL/Types/Object/SubmitMissionMutationSuccess.php',
-        'Dealt\\DealtSDK\\Services\\AbstractDealtService' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Services/AbstractDealtService.php',
-        'Dealt\\DealtSDK\\Services\\DealtMissions' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Services/DealtMissions.php',
-        'Dealt\\DealtSDK\\Services\\DealtOffers' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Services/DealtOffers.php',
-        'Dealt\\DealtSDK\\Services\\DealtServiceFactory' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Services/DealtServiceFactory.php',
-        'Dealt\\DealtSDK\\Utils\\GraphQLFormatter' => __DIR__ . '/..' . '/dealt/dealt-sdk/src/Utils/GraphQLFormatter.php',
         'Dealt\\Module\\Dealtmodule\\Api\\DealtAPIAction' => __DIR__ . '/../..' . '/src/Api/DealtApiAction.php',
         'Dealt\\Module\\Dealtmodule\\Api\\DealtApiHandler' => __DIR__ . '/../..' . '/src/Api/DealtApiHandler.php',
         'Dealt\\Module\\Dealtmodule\\Api\\DealtEnv' => __DIR__ . '/../..' . '/src/Api/DealtEnv.php',
@@ -131,53 +53,9 @@ class ComposerStaticInit73b64d3d94e064e92c36f6b3c994dd29
         'Dealt\\Module\\Dealtmodule\\Model\\DealtOfferCategory' => __DIR__ . '/../..' . '/src/Model/DealtOfferCategory.php',
         'Dealt\\Module\\Dealtmodule\\Utils\\DealtTools' => __DIR__ . '/../..' . '/src/Utils/DealtTools.php',
         'Dealtmodule' => __DIR__ . '/../..' . '/dealtmodule.php',
-        'Giggsey\\Locale\\Locale' => __DIR__ . '/..' . '/giggsey/locale/src/Locale.php',
         'Stringable' => __DIR__ . '/..' . '/symfony70/polyfill-php80/Resources/stubs/Stringable.php',
-        'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
-        'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony70/polyfill-php80/Php80.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony70/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony70/polyfill-php80/Resources/stubs/ValueError.php',
-        'libphonenumber\\AlternateFormatsCountryCodeSet' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/AlternateFormatsCountryCodeSet.php',
-        'libphonenumber\\AsYouTypeFormatter' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/AsYouTypeFormatter.php',
-        'libphonenumber\\CountryCodeSource' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/CountryCodeSource.php',
-        'libphonenumber\\CountryCodeToRegionCodeMap' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/CountryCodeToRegionCodeMap.php',
-        'libphonenumber\\CountryCodeToRegionCodeMapForTesting' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/CountryCodeToRegionCodeMapForTesting.php',
-        'libphonenumber\\DefaultMetadataLoader' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/DefaultMetadataLoader.php',
-        'libphonenumber\\Leniency' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/Leniency.php',
-        'libphonenumber\\Leniency\\AbstractLeniency' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/Leniency/AbstractLeniency.php',
-        'libphonenumber\\Leniency\\ExactGrouping' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/Leniency/ExactGrouping.php',
-        'libphonenumber\\Leniency\\Possible' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/Leniency/Possible.php',
-        'libphonenumber\\Leniency\\StrictGrouping' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/Leniency/StrictGrouping.php',
-        'libphonenumber\\Leniency\\Valid' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/Leniency/Valid.php',
-        'libphonenumber\\MatchType' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/MatchType.php',
-        'libphonenumber\\Matcher' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/Matcher.php',
-        'libphonenumber\\MatcherAPIInterface' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/MatcherAPIInterface.php',
-        'libphonenumber\\MetadataLoaderInterface' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/MetadataLoaderInterface.php',
-        'libphonenumber\\MetadataSourceInterface' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/MetadataSourceInterface.php',
-        'libphonenumber\\MultiFileMetadataSourceImpl' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/MultiFileMetadataSourceImpl.php',
-        'libphonenumber\\NumberFormat' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/NumberFormat.php',
-        'libphonenumber\\NumberParseException' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/NumberParseException.php',
-        'libphonenumber\\PhoneMetadata' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneMetadata.php',
-        'libphonenumber\\PhoneNumber' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumber.php',
-        'libphonenumber\\PhoneNumberDesc' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberDesc.php',
-        'libphonenumber\\PhoneNumberFormat' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberFormat.php',
-        'libphonenumber\\PhoneNumberMatch' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberMatch.php',
-        'libphonenumber\\PhoneNumberMatcher' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberMatcher.php',
-        'libphonenumber\\PhoneNumberToCarrierMapper' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberToCarrierMapper.php',
-        'libphonenumber\\PhoneNumberToTimeZonesMapper' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberToTimeZonesMapper.php',
-        'libphonenumber\\PhoneNumberType' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberType.php',
-        'libphonenumber\\PhoneNumberUtil' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/PhoneNumberUtil.php',
-        'libphonenumber\\RegexBasedMatcher' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/RegexBasedMatcher.php',
-        'libphonenumber\\RegionCode' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/RegionCode.php',
-        'libphonenumber\\ShortNumberCost' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/ShortNumberCost.php',
-        'libphonenumber\\ShortNumberInfo' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/ShortNumberInfo.php',
-        'libphonenumber\\ShortNumbersRegionCodeSet' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/ShortNumbersRegionCodeSet.php',
-        'libphonenumber\\ValidationResult' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/ValidationResult.php',
-        'libphonenumber\\geocoding\\PhoneNumberOfflineGeocoder' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/geocoding/PhoneNumberOfflineGeocoder.php',
-        'libphonenumber\\prefixmapper\\MappingFileProvider' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/prefixmapper/MappingFileProvider.php',
-        'libphonenumber\\prefixmapper\\PhonePrefixMap' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/prefixmapper/PhonePrefixMap.php',
-        'libphonenumber\\prefixmapper\\PrefixFileReader' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/prefixmapper/PrefixFileReader.php',
-        'libphonenumber\\prefixmapper\\PrefixTimeZonesMap' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/prefixmapper/PrefixTimeZonesMap.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
