@@ -224,8 +224,8 @@ class DealtApiHandler extends DealtGenericClient
                     'last_name' => $customer->lastname,
                     'email_address' => $customer->email,
                     'phone_number' => $phone != false ? $phone : $phoneMobile,
-                    'customerProductPrice' => \Product::getPriceStatic($product->id, false),
-                    'customerServicePrice' => \Product::getPriceStatic($offer->id_dealt_product, false),
+                    'customerProductPrice' => \Product::getPriceStatic($product->id, true),
+                    'customerServicePrice' => \Product::getPriceStatic($offer->id_dealt_product, true),
                 ],
                 'webHookUrl' => \Context::getContext()->link->getModuleLink(
                     strtolower(DealtModule::class),
