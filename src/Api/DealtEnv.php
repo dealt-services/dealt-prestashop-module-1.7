@@ -28,7 +28,7 @@ class DealtEnv
     {
         if (true === $this->isLive()) {
             $this->setMode('live');
-            $this->setName('test');
+            $this->setName('prod');
         } else {
             $this->setMode('sandbox');
             $this->setName('test');
