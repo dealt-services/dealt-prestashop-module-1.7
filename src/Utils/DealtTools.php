@@ -211,6 +211,7 @@ class DealtTools
      */
     public static function setOfferCategoryAssociation(DealtOffer $Offer, array $categories_ids)
     {
+        \Db::getInstance()->execute('DELETE FROM `' . _DB_PREFIX_ . 'dealt_offer_category` WHERE `id_offer` = '.(int)$Offer->id);
         foreach ($categories_ids as $id) {
             $catObject = new \Category($id);
 

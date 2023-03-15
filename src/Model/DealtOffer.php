@@ -12,6 +12,7 @@ class DealtOffer extends ObjectModel
     /** @var string[] */
     public $title_offer;
     public $dealt_id_offer;
+    public $date_add;
     private $product_price;
     public static $definition = array(
         'table' => 'dealt_offer',
