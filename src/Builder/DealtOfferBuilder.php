@@ -113,7 +113,9 @@ class DealtOfferBuilder extends AbstractBuilder
                 DealtTools::setOfferCategoryAssociation($dealt, $categories_ids);
                 DealtOfferCategory::cleanTreeDifference($dealt->id, $dealt->id_dealt_product, $categories_ids);
             }
-            $this->saveImage($product);
+            if(isset($_FILES['image']) && $_FILES['image']['name'] != '') {
+                $this->saveImage($product);
+            }
         } catch (\Exception $e) {
             DealtModuleLogger::log(
                 'Could not create offer',
